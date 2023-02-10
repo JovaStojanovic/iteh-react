@@ -1,4 +1,5 @@
 import React from 'react'
+import Pagination from '../Pagination';
 import Product from './Product';
 
 const Products = ({ products, detaljnije, firstProductIndex, lastProductIndex, productsPerPage, currentPage, setcuerrentPage }) => {
@@ -17,12 +18,12 @@ const Products = ({ products, detaljnije, firstProductIndex, lastProductIndex, p
         </div>
         <div className='paginacija'>
         {
-        /*<Pagination
+        <Pagination
                 totalPosts={products.length}
                 postsPerPage={productsPerPage}
                 setCurrentPage={setcuerrentPage}
                 currentPage={currentPage}
-            />*/
+            />
         }
         </div>
         </div>

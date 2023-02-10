@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Pagination from '../Pagination';
 import Product from './Product';
 
 function Upit({ product,products,detaljnije, posaljiUpit, firstProductIndex, lastProductIndex, currentPage, setcuerrentPage, productsPerPage}) {
@@ -42,13 +43,13 @@ function Upit({ product,products,detaljnije, posaljiUpit, firstProductIndex, las
             
         </div>
         <div className='paginacija'>
-        {/*
+        {
         <Pagination
                 totalPosts={products.length}
                 postsPerPage={productsPerPage}
                 setCurrentPage={setcuerrentPage}
                 currentPage={currentPage}
-            />*/
+            />
         }
         </div>
                 
