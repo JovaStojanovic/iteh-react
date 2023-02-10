@@ -3,6 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Kontakt from './components/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
           <Route
             path="/"
             element={<Main />}
+            />
+            <Route
+            path="/kontakt" element={<Kontakt />}
             />
         </Routes>
       <Footer></Footer>

@@ -1,0 +1,378 @@
+.logoImg{
+  margin-top: 50px;
+  width: 500px ;
+  height: 500px;
+  margin-left: 35%;
+  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}
+.body{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.aboutus{
+  width: 50%;
+  margin-left: 100px;
+}
+.aboutustwo{
+  width: 50%;
+  margin-right: 100px;
+}
+.us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.us h1{
+  font-weight: bolder;
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 25px;
+}
+.us p{
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+}
+.header{
+  height: 600px;
+  background-image: url("https://img.freepik.com/free-vector/seamless-design-music-notes_1308-72734.jpg?w=1060&t=st=1675965754~exp=1675966354~hmac=5d128c228498738d91b8d5839bd7f52f4553c978c036adbf151aa729ad1aa53f");
+}
+.gridDiv{
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  margin:95px;
+
+}
+.kolicina{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.product-name{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  font-weight: bold;
+}
+.dpcena{
+  font-size: 30px;
+  font-style: italic;
+}
+
+.product-img {
+  margin-left: 40%;
+  transition: transform .2s;
+}
+.product-img:hover{
+  transform: scale(1.2);
+}
+.portfolioImg{
+  border-radius: 25px;
+  width: 420PX ;
+  height: 280px;
+  margin-left: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: transform .2s;
+}
+.product-img img {
+  width: 300px;
+  height: 400px;
+}
+.slika{
+  width: 200px;
+  height: 250px;
+}
+.portfolioImg:hover{
+  transform: scale(1.2);
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  background-color: black !important;
+}
+.deo{
+  width: 400px;
+  font-size: 30px;
+}
+
+
+.navBarItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+.navBarItem:hover{
+  color: grey;
+}
+
+.card-title{
+  height: 50px;
+}
+.card-text{
+  padding: 0px;
+  color: gray;
+}
+
+.cart-num {
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 12px;
+  margin-left: 5px;
+  text-decoration: none;
+  color:black;
+  float: right !important;
+  overflow: hidden;
+
+}
+.iconNav{
+  font-size: 25px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.link
+  {
+    text-decoration: none;
+    color: black;
+  }
+  .link:hover
+  {
+    text-decoration: none;
+    color: white;
+  }
+
+  .logo{
+    width:100px;
+    height: 100px;
+  }
+
+  .footer-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    min-height: 7vh;
+    margin-top: auto;
+  }
+  .info{
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .footer{
+    text-align: center;
+    margin-top: auto;
+  }
+
+  form{
+    margin-left: 15%;
+  }
+  .form-div{
+    margin-top:7%;
+    margin-left:30%;
+    margin-bottom: 7%;
+    background-color: black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 500px;
+    border-radius: 10px;
+    background-image: url("https://images.pexels.com/photos/290660/pexels-photo-290660.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+  }
+  .formSentMsg{
+    visibility :"hidden"
+  }
+  #porukaUspešno{
+    width: 600px;
+    height: 40px;
+    box-shadow: 0 8px 16px 0 black;
+    background-color: white;
+    color: black;
+    margin-left: 30%;
+    padding: 10px;
+  
+  }
+  #uspešno{
+    width: 600px;
+    height: 40px;
+    box-shadow: 0 8px 16px 0 black;
+    background-color: white;
+    color: black;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+  
+  #porukaNeuspešno{
+    width: 600px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    margin-left: 26%;
+    padding: 10px;
+  
+  }
+
+  input{
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 3px;
+  }
+
+  .card {
+    border: 2px solid;
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 600px;
+    margin: 15px;
+    align-content: center;
+  
+  }
+  .posaljiUpit{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 7px;
+  color: black;
+  font-weight: 500;
+  margin-left: 33%;
+  text-decoration: none;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:3px;
+  padding-bottom: 3px;
+  
+  
+  }
+  .posaljiUpit:hover{
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+    color: white;
+   background-color: black;
+   border: 2px solid white;
+  }
+  
+  
+  
+  .card-body {
+    padding: 2px;
+  
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+  }
+  .paginacija{
+    height: 100px;
+  }
+
+  .btnpaginacija{
+    width: 100px;
+    height: 100px;
+  }
+  .omotac{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/104084/pexels-photo-104084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  .all-products {
+    display: grid;
+    grid-template-columns: repeat(6,16%);
+    margin-top: 20px;
+    padding-left: 60px;
+  }
+  .ukupno{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+
+  .btnUpit{
+   
+    margin-left: 15px;
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+
+  
+  }
+  .btnUpit:hover{
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+  }
+  input{
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 3px;
+  }
+  .potvrdiPorudzbinu{
+    background-color: white;
+    border: 2px solid   black;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 48px;
+    
+  }
+
+  .emptyCart{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 300px;
+    font-size: 100px;
+  }
+
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.pagination button {
+    width: 40px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.pagination button.active {
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    border-color: white;
+    background: black;
+    color: white;
+}

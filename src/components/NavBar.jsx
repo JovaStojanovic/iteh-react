@@ -26,4 +26,5 @@ function NavBar({cartNum})  {
     )
 }
 
+
 export default NavBar
