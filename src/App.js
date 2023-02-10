@@ -1,12 +1,14 @@
-import Main from './components/Main';
-import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import './App.css';
+import { useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom"; 
+import Main from './components/Main';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Kontakt from './components/Contact';
 import Products from './components/Products';
+import Upit from './components/Query';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect, useState } from "react";
+import SviUpiti from './components/AllQueries';
 
 
 function App() {
@@ -206,24 +208,34 @@ function App() {
     }
   
   return (
-    <BrowserRouter>
-      <NavBar></NavBar>
-        <Routes>
-          <Route
-            path="/"
-            element={<Main />}
-            />
+  <BrowserRouter>
+      <NavBar cartNum={cartNum}></NavBar>
+      <Routes>
+        <Route
+          path="/"
+          element={<Main />}
+          
+        />
+         <Route
+          path="/proizvodi/:id"
+          element={<Upit detaljnije={detaljnije} product={searchProduct} products={proizvodi} posaljiUpit={posaljiUpit} firstProductIndex={firstProductIndex} lastProductIndex={lastProductIndex} productsPerPage={productsPerPage} currentPage={currentPage} setcuerrentPage={setcuerrentPage} />}
+        />
          <Route
           path="/proizvodi"
           element = {<Products products={proizvodi} detaljnije={detaljnije} firstProductIndex={firstProductIndex} lastProductIndex={lastProductIndex} productsPerPage={productsPerPage} currentPage={currentPage} setcuerrentPage={setcuerrentPage}/>}
-          />  
-          <Route
-            path="/kontakt" element={<Kontakt />}
-            />
-        </Routes>
-      <Footer></Footer>
+
+        />
+        <Route
+          path="/upiti"
+          element={ <SviUpiti upiti={cartProducts} otkaziUpit={otkaziUpit} totalPrice={totalPrice} potvrdiPorudzbinu={potvrdiPorudzbinu}/>}
+        />
+        <Route
+        path="/kontakt" element={<Kontakt />}
+        />
+      </Routes>
+    <Footer></Footer>
     </BrowserRouter>
-    );
+  );
 }
 
 export default App;
