@@ -103,12 +103,13 @@
 }
 .deo{
   width: 400px;
-  font-size: 30px;
+  
 }
 
 
 .navBarItem {
   display: flex;
+  font-size: 30px;
   flex-direction: row;
   align-items: center;
   text-decoration: none;
@@ -117,6 +118,8 @@
 }
 
 .navBarItem:hover{
+  transition: 0.5s;
+  font-size: 40px;
   color: grey;
 }
 
@@ -146,6 +149,12 @@
   margin-right: 10px;
   text-decoration: none;
   color: white;
+}
+
+.iconNav:hover{
+  transition: 0.5s;
+  font-size: 40px;
+  color: grey;
 }
 
 .link
@@ -260,14 +269,14 @@
   padding-right:10px;
   padding-top:3px;
   padding-bottom: 3px;
-  
-  
   }
   .posaljiUpit:hover{
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
     color: white;
-   background-color: black;
-   border: 2px solid white;
+    font-size: large;
+    transition: 1s;
+    background-color: black;
+    border: 2px solid white;
   }
   
   
