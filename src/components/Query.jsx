@@ -45,8 +45,8 @@ function Upit({ product,products,detaljnije, posaljiUpit, firstProductIndex, las
         <div className='paginacija'>
         {
         <Pagination
-                totalPosts={products.length}
-                postsPerPage={productsPerPage}
+                totalProducts={products.length}
+                productsPerPage={productsPerPage}
                 setCurrentPage={setcuerrentPage}
                 currentPage={currentPage}
             />
