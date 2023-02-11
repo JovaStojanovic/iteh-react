@@ -140,7 +140,7 @@ function App() {
 
   const [currentPage, setcuerrentPage] = useState(1);
 
-  const [productsPerPage, setproductsPerPage] = useState(6);
+  const [productsPerPage] = useState(6);
 
   const lastProductIndex = currentPage * productsPerPage;
   const firstProductIndex = lastProductIndex - productsPerPage;
