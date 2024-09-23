@@ -1,6 +1,8 @@
 
 # React prodavnica gitara
 
+----------------------------------------------------
+
 Aplikacija predstavlja sajt za online prodaju gitara Guitar Shop-a. Postoji početna stranica na kojoj se nalaze osnovne informacije o firmi, stranica gde se nalaze gitare koje su na prodaju, kao i stranice sa detaljima o svakoj gitari, korpa u kojoj se nalaze proizvodi koje želimo da kupimo, kao i kontakt stranica.
 
 
