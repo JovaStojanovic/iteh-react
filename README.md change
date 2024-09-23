@@ -1,0 +1,31 @@
+
+# React prodavnica gitara
+
+Aplikacija predstavlja sajt za online prodaju gitara Guitar Shop-a. Postoji početna stranica na kojoj se nalaze osnovne informacije o firmi, stranica gde se nalaze gitare koje su na prodaju, kao i stranice sa detaljima o svakoj gitari, korpa u kojoj se nalaze proizvodi koje želimo da kupimo, kao i kontakt stranica.
+
+
+## Implementacija
+
+Unutar App.js se nalazi sve ono što je vidljivo na našem sajtu. Tu smo, pre svega, definisali sve one stvari koje je potrebno da pratimo korišćenjem useState-a i useEffect-a. UseEffect je korišćen striktno kao provera da li se nešto dogodilo. Definisali smo broj proizvoda u korpi sa početnom vrednošću 0, zatim sam niz proizvoda, proizvod koji želimo detaljnije da pogledamo sa početnom vrednošću prvog proizvoda, potom proizvode unutar korpe sa početnom vrednošću praznog niza, ukupnu cenu sa početnom vrednošću 0, trenutnu stranu paginacije, kao i broj proizvoda na jednoj strani paginacije sa vrednošću 6.
+
+## Prikaz aplikacije
+
+Početna stranica
+![image](https://github.com/user-attachments/assets/b37f6af2-91f6-4b5d-84bc-88fc29c067df)
+
+Stranica sa gitarama
+
+![image](https://github.com/user-attachments/assets/da0430d3-3515-41fa-a7eb-7677ea0c9364)
+
+Stranica sa detaljima gitare
+
+![image](https://github.com/user-attachments/assets/bf82088a-df73-4e6d-b123-50faccd8518c)
+
+Korpa
+
+![image](https://github.com/user-attachments/assets/691f70ea-2410-40c3-a49b-afb63f743fb8)
+
+Kontakt stranica
+
+![image](https://github.com/user-attachments/assets/74ecc459-6106-436c-aa46-1fd85982f8e3)
+
